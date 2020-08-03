@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30329.45
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NugetPackageExtractor", "NugetPackageExtractor.csproj", "{48C40DE4-5131-456D-90EC-E57439017A7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NugetPackageExtractor", "NugetPackageExtractor\NugetPackageExtractor.csproj", "{48C40DE4-5131-456D-90EC-E57439017A7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NugetPackageExtractor.Test", "..\NugetPackageExtractor.Test\NugetPackageExtractor.Test.csproj", "{7F20D85C-21CB-439E-85C1-54F8AB8CD840}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NugetPackageExtractor.Test", "NugetPackageExtractor.Test\NugetPackageExtractor.Test.csproj", "{7F20D85C-21CB-439E-85C1-54F8AB8CD840}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
