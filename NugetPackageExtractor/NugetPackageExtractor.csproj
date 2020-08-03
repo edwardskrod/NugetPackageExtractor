@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>net5.0;net472</TargetFrameworks>
+  </PropertyGroup>
+
+  <!--<ItemGroup Condition="'$(TargetFramework)'=='net45'">
+    <PackageReference Include="NuGet.Packaging.Extraction" Version="5.8.0-xprivate" />
+    <PackageReference Include="NuGet.Protocol" Version="5.8.0-xprivate" />
+  </ItemGroup>-->
+  <ItemGroup Condition="'$(TargetFramework)'=='net472' or '$(TargetFramework)'=='net5.0'">
+    <PackageReference Include="NuGet.Packaging" Version="5.7.0-rtm.6702" />
+    <PackageReference Include="NuGet.Protocol" Version="5.7.0-rtm.6702" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  
+</Project>

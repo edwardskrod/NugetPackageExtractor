@@ -1,0 +1,12 @@
+###############################################################################
+# Set default behavior to automatically normalize line endings.
+###############################################################################
+* text=auto
+###############################################################################
+# git-lfs (Large File Storage)
+#
+# Files with the follow extensions will be managed by git-lfs
+# https://github.com/git-lfs/git-lfs
+###############################################################################
+# The following file is used to text .nupkg extraction and is managed by git-lfs
+test.2.4.2.nupkg filter=lfs diff=lfs merge=lfs -text
