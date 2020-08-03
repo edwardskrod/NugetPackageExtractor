@@ -1,8 +1,10 @@
-using System;
-using Xunit;
+// <copyright file="ProgramTests.cs" company="Microsoft Corporation">
+// Copyright (C) Microsoft Corporation. All rights reserved.
+// </copyright>
+
 using NupkgPackageExtractor.Test.Utility;
-using Microsoft.VisualStudio.TestPlatform.TestHost;
 using System.IO;
+using Xunit;
 
 namespace NugetPackageExtractor.Test
 {
